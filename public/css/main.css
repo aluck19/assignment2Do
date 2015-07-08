@@ -1,0 +1,127 @@
+/* Color Used
+ ----------------------------------
+ ---------------------------------------------
+ Green: #15A781
+ Brown: #FAB037
+ */
+body {
+	font-family: Georgia, sans-serif;
+	font-size: 16px;
+	color: #000;
+	margin: 0;
+	height: 100% !important;
+	background: #fff;
+}
+div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+.noMgPd {
+	margin: 0;
+	padding: 0;
+}
+#bodyWrapper {
+	background: #fff;
+}
+/*----------- Header --------------*/
+header {
+	padding: 10px;
+	color: #fff;
+	height: 90px;
+}
+header h1 {
+	line-height: 70px;
+}
+.header-block {
+	background-color: #46B8A4;
+}
+.page-head {
+	padding: 30px 30px 130px;
+	text-align: center;
+	color: #fff;
+}
+.page-head .lead {
+	color: rgba(255,255,255,0.95);
+	margin: 0;
+}
+div#myBody {
+	background-color: #FFFFFF;
+	border: 1px solid #e5e5e5;
+	padding: 50px;
+	position: relative;
+	top: -95px;
+	margin-bottom: -95px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px #eee;
+	min-height: 100vh;
+}
+#navigation {
+	line-height: 65px;
+}
+#navigation a {
+	color: #fff;
+	margin-left: 20px;
+	float: right;
+}
+
+/*----------- Wrapper --------------*/
+#bodyWrapper {
+	min-height: 100% !important;
+	position: relative !important;
+}
+/*----------- Content --------------*/
+#mainContent {
+	padding: 20px;
+	padding-bottom: 70px !important; /* Height of the footer element */
+}
+#menuPlate {
+	margin-top: 10px;
+}
+#notifications {
+	margin-top: 10px;
+	overflow: scroll;
+	overflow-x: unset;
+	height: 375px;
+}
+#menuPlate ul li {
+	list-style: none;
+}
+.comment {
+	margin: 20px;
+}
+#selected {
+	font-weight: bold;
+}
+.log-entries {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.ui.ribbon.label {
+	font-size: 18px;
+}
+.ui.celled.striped.table a:hover {
+	text-decoration: none;
+}
+ul.pagination {
+	margin: 0;
+}
+/*----------- Footer --------------*/
+footer {
+	width: 100% !important;
+	height: 50px !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	left: 0 !important;
+	background-color: #46B8A4;
+	border-top: 1px solid #e5e5e5;
+	color: #fff;
+}
+div#liscene p {
+	line-height: 25px;
+}
+div#liscene {
+	position: relative;
+	top: 10px;
+	text-align: center;
+}
+
